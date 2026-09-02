@@ -991,7 +991,7 @@
                     <div class="state-block">
                         <i class="ph ${showFavoritesOnly ? 'ph-heart' : 'ph-cake'}"></i>
                         <p>${showFavoritesOnly ? 'Aucun favori pour le moment.' : 'Aucune création dans cette catégorie.'}</p>
-                        <p class="sub">${showFavoritesOnly ? 'Tapez sur le cœur d\\'un produit pour le garder ici.' : 'Revenez bientôt, le menu s\\'agrandit régulièrement.'}</p>
+                        <p class="sub">${showFavoritesOnly ? 'Tapez sur le cœur d\'un produit pour le garder ici.' : 'Revenez bientôt, le menu s\'agrandit régulièrement.'}</p>
                     </div>
                 `;
                 return;
@@ -1124,7 +1124,7 @@
                 const result = await response.json();
 
                 if (!response.ok) {
-                    throw new Error(result.error || 'Erreur lors de l\\'envoi');
+                    throw new Error(result.error || 'Erreur lors de l\'envoi');
                 }
 
                 modalFormWrap.style.display = 'none';
